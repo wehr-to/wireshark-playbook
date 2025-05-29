@@ -3,7 +3,6 @@
 This repository contains hands-on labs, packet captures, and investigative writeups designed to deepen my understanding of protocol behavior, traffic patterns, and forensic network analysis.
 
 Each lab includes:
-- A raw `.pcapng` capture
 - A structured analysis (`lab.md`)
 - Useful Wireshark display filters
 
