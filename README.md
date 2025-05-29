@@ -21,7 +21,7 @@ The goal is to build real fluency in packet inspection without relying on screen
 
 | Folder         | Description                                                   |
 |----------------|---------------------------------------------------------------|
-| `labs/`         | Core labs — each folder contains a `.pcapng`, lab writeup, and filters |
+| `labs/`         | Core labs — each folder contains a lab writeup and filters |
 | `filters/`      | Curated filter expressions by protocol, use case, or behavior |
 | `methodology/`  | Repeatable analysis checklists, dissection flows, traffic ideas |
 | `templates/`    | Template for documenting new labs in a consistent format       |
