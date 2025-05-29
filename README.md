@@ -1,12 +1,12 @@
 # 📡 Wireshark Playbook
 
-This repository contains hands-on labs, packet captures, and investigative writeups designed to deepen my understanding of protocol behavior, traffic patterns, and forensic network analysis.
+This repository contains hands-on labs and investigative writeups designed to deepen my understanding of protocol behavior, traffic patterns, and forensic network analysis.
 
 Each lab includes:
 - A structured analysis (`lab.md`)
-- Useful Wireshark display filters
+- Practical Wireshark display filters (`filters.txt`)
 
-The goal is to build real fluency in packet inspection without relying on screenshots, videos, or surface-level explanations — this is **manual, grounded, and repeatable network analysis**.
+All traffic scenarios are **hypothetical** and meant to simulate real-world conditions without relying on live captures or sensitive data. This repo focuses on repeatable, manual analysis exercises — no screenshots, no videos, no fluff.
 
 ## 🧪 Lab Topics Covered
 
@@ -19,25 +19,27 @@ The goal is to build real fluency in packet inspection without relying on screen
 
 ## 📁 Repository Structure
 
-| Folder         | Description                                                   |
-|----------------|---------------------------------------------------------------|
-| `labs/`         | Core labs — each folder contains a lab writeup and filters |
-| `filters/`      | Curated filter expressions by protocol, use case, or behavior |
-| `methodology/`  | Repeatable analysis checklists, dissection flows, traffic ideas |
-| `templates/`    | Template for documenting new labs in a consistent format       |
+| Folder         | Description                                                    |
+|----------------|----------------------------------------------------------------|
+| `labs/`         | Core labs — each folder contains a structured writeup and filters |
+| `filters/`      | Curated display filters organized by protocol and use case    |
+| `methodology/`  | Checklists, dissection strategies, and traffic exploration prompts |
+| `templates/`    | Markdown templates for building new labs consistently         |
 
 ## 🧠 Lab Philosophy
 
 This repo reflects a few core beliefs:
+
 - **You only learn Wireshark by doing.**
-- Packet analysis is a skill, not a tool.
-- Every protocol has something to teach you.
-- The best insights come from reading the wire directly.
+- Packet analysis is a skill, not just a UI.
+- Every protocol has a story to tell.
+- The best insights come from dissecting the wire, not watching tutorials.
+
+All labs simulate packet activity and behavior based on known RFCs, forensic patterns, and protocol documentation.
 
 ## 🧰 How to Use This Repo
 
-1. Clone it:
+1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/wireshark-playbook.git
    cd wireshark-playbook
-
